@@ -1,0 +1,11 @@
+langchain>=0.2.5
+langchain-community>=0.2.5
+langchain-core>=0.2.5
+chromadb==0.4.13
+# Avoid Pulsar-client dependency issues on Windows; 0.4.13 uses DuckDB without Pulsar
+PyPDF2>=3.0.1
+python-docx>=1.1.0
+gradio>=4.31.4
+numpy>=1.26.0
+pydantic>=2.7.0
+langchain-nvidia-ai-endpoints>=0.3.0
