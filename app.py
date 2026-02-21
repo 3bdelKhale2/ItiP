@@ -3,8 +3,8 @@ import gradio as gr
 from typing import List, Tuple
 from pathlib import Path
 
-# Inject NVIDIA API key for local run (prefer environment variables in production)
-os.environ["NVIDIA_API_KEY"] = "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"
+# Import your NVIDIA API key here
+# os.environ["NVIDIA_API_KEY"] = "your_nvidia_api_key_here"
 
 from utils import ensure_dirs, make_unique_path, guard_unrelated
 from ingestion import ingest, SUPPORTED_EXTENSIONS

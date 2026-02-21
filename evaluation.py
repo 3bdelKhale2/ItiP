@@ -1,5 +1,9 @@
+import os
 import time
 from typing import List, Tuple
+
+# Import your NVIDIA API key here
+# os.environ["NVIDIA_API_KEY"] = "your_nvidia_api_key_here"
 
 from rag_pipeline import build_qa_chain
 
